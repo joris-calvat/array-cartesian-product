@@ -1,6 +1,6 @@
 {
   "name": "get-combinations-of-two-entries-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "return all the combinations of a two-entries array",
   "main": "getCombinationsOfTwoEntriesArray.js",
   "scripts": {
