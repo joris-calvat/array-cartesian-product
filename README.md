@@ -24,3 +24,34 @@ const filters = [
 const combinations = getCombinationsOfTwoEntriesArray(filters);
 document.write(JSON.stringify(combinations));
 ```
+
+the result
+
+```
+[
+    [{"filter":"A0"},{"filter":"B0"},{"filter":"C0"}],
+    [{"filter":"A0"},{"filter":"B0"},{"filter":"C1"}],
+    [{"filter":"A0"},{"filter":"B1"},{"filter":"C0"}],
+    [{"filter":"A0"},{"filter":"B1"},{"filter":"C1"}],
+    [{"filter":"A0"},{"filter":"B2"},{"filter":"C0"}],
+    [{"filter":"A0"},{"filter":"B2"},{"filter":"C1"}],
+    [{"filter":"A0"},{"filter":"B3"},{"filter":"C0"}],
+    [{"filter":"A0"},{"filter":"B3"},{"filter":"C1"}],
+    [{"filter":"A1"},{"filter":"B0"},{"filter":"C0"}],
+    [{"filter":"A1"},{"filter":"B0"},{"filter":"C1"}],
+    [{"filter":"A1"},{"filter":"B1"},{"filter":"C0"}],
+    [{"filter":"A1"},{"filter":"B1"},{"filter":"C1"}],
+    [{"filter":"A1"},{"filter":"B2"},{"filter":"C0"}],
+    [{"filter":"A1"},{"filter":"B2"},{"filter":"C1"}],
+    [{"filter":"A1"},{"filter":"B3"},{"filter":"C0"}],
+    [{"filter":"A1"},{"filter":"B3"},{"filter":"C1"}],
+    [{"filter":"A2"},{"filter":"B0"},{"filter":"C0"}],
+    [{"filter":"A2"},{"filter":"B0"},{"filter":"C1"}],
+    [{"filter":"A2"},{"filter":"B1"},{"filter":"C0"}],
+    [{"filter":"A2"},{"filter":"B1"},{"filter":"C1"}],
+    [{"filter":"A2"},{"filter":"B2"},{"filter":"C0"}],
+    [{"filter":"A2"},{"filter":"B2"},{"filter":"C1"}],
+    [{"filter":"A2"},{"filter":"B3"},{"filter":"C0"}],
+    [{"filter":"A2"},{"filter":"B3"},{"filter":"C1"}]
+]
+```
