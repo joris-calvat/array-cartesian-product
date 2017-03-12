@@ -5,7 +5,7 @@ getCombinationsOfTwoEntriesArray is a method to get all the combinations of a tw
 ## Install
 
 ```
-npm install getCombinationsOfTwoEntriesArray
+npm install get-combinations-of-two-entries-array
 ```
 
 It can be linked as a script into the browser or used as a npm module
