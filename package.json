@@ -16,7 +16,10 @@
     "recursive",
     "two-entries"
   ],
-  "author": "joris calvat",
+  "author": {
+    "name": "Joris Calvat",
+    "url": "https://github.com/joris-calvat"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/joris-calvat/getCombinationsOfTwoEntriesArray/issues"
