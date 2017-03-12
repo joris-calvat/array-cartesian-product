@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>getCombinationsOfTwoEntriesArray</title>
+    <script src="./getCombinationsOfTwoEntriesArray.js"></script>
+  </head>
+  <body>
+      <h1>Demo of getCombinationsOfTwoEntriesArray</h1>
+    
+    <script>
+
+const filters = [
+    [{filter:'A0'}, {filter:'A1'}, {filter:'A2'}],
+    [{filter:'B0'}, {filter:'B1'}, {filter:'B2'}, {filter:'B3'}],
+    [{filter:'C0'}, {filter:'C1'}],
+];
+
+const combinations = getCombinationsOfTwoEntriesArray(filters);
+
+document.write(JSON.stringify(combinations));
+
+    </script>
+  </body>
+</html>
