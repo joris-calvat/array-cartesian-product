@@ -1,7 +1,7 @@
 
 var assert = require('assert');
 
-const getCombinationsOfTwoEntriesArray = require('../getCombinationsOfTwoEntriesArray.js');
+const arrayCartesianProduct = require('../arrayCartesianProduct.js');
 
 const filters = [
     [{filter:'A0'}, {filter:'A1'}, {filter:'A2'}],
@@ -9,7 +9,7 @@ const filters = [
     [{filter:'C0'}, {filter:'C1'}],
 ];
 
-const combinations = getCombinationsOfTwoEntriesArray(filters);
+const combinations = arrayCartesianProduct(filters);
 
 describe('Array combination', function() {
     it('should return an array with a length of 24', function() {

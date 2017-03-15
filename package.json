@@ -1,6 +1,6 @@
 {
   "name": "array-cartesian-product",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "description": "return the cartesian product combinations of a two-entries array",
   "main": "arrayCartesianProduct.js",
   "scripts": {

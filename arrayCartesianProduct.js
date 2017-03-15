@@ -1,4 +1,4 @@
-const getCombinationsOfTwoEntriesArray = (twoEntriesArray) => {
+const arrayCartesianProduct = (twoEntriesArray) => {
 
     var allCombinations = [];
 
@@ -26,6 +26,6 @@ const getCombinationsOfTwoEntriesArray = (twoEntriesArray) => {
 }
 
 if(module && module.exports) {
-    module.exports = getCombinationsOfTwoEntriesArray;
+    module.exports = arrayCartesianProduct;
 }
 

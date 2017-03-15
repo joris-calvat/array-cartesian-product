@@ -1,11 +1,11 @@
-# getCombinationsOfTwoEntriesArray
+# array-cartesian-product
 
-getCombinationsOfTwoEntriesArray is a method to get all the combinations of a two-entries array
+array-cartesian-product is a method to get the cartesian product combinations of a two-entries array
 
 ## Install
 
 ```
-npm install get-combinations-of-two-entries-array
+npm install array-cartesian-product
 ```
 
 It can be linked as a script into the browser or used as a npm module
@@ -15,14 +15,16 @@ It can be linked as a script into the browser or used as a npm module
 I have 3 sets of filters to combine together
 
 ```
+const arrayCartesianProduct = require('arrayCartesianProduct');
+
 const filters = [
     [{filter:'A0'}, {filter:'A1'}, {filter:'A2'}],
     [{filter:'B0'}, {filter:'B1'}, {filter:'B2'}, {filter:'B3'}],
     [{filter:'C0'}, {filter:'C1'}],
 ];
 
-const combinations = getCombinationsOfTwoEntriesArray(filters);
-document.write(JSON.stringify(combinations));
+const combinations = arrayCartesianProduct(filters);
+console.log(JSON.stringify(combinations));
 ```
 
 the result
